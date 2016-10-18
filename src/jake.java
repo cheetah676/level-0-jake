@@ -29,7 +29,7 @@
 			double money= nickles*0.05+ dimes*0.10+ quarters*0.25+ dollars*1.00+ pennies*0.01;
 			// Tell the user how much money they have
 			JOptionPane.showConfirmDialog(null, "You have $" + money);
-			String sandwich=JOptionPane.showConfirmDialog(parentComponent, message),JOptionPane.YES_NO_OPTION);
+			String sandwich=JOptionPane.
 			if (money> 50 && sandwich.equals(JOptionPane.YES_OPTION));
 				
 		}
