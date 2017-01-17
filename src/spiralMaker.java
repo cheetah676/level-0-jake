@@ -28,7 +28,7 @@ public class spiralMaker {
 		// http://bit.ly/YJUOkn
 
 		// 2. Change your code to turn the square spiral into a triangle spiral
-		for (int i = 1; i <= 80; i++) {
+		for (int i = 1; i <= 150; i++) {
 			Tortoise.setSpeed(10);
 			Tortoise.move(i * 4);
 			Tortoise.turn(ShapeSides);
