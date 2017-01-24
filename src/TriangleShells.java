@@ -15,7 +15,7 @@ public class TriangleShells {
 			jakey.setSpeed(11);
 
 			// 4. make a variable to hold the length of the triangle and set it to 50
-	int length=50;
+	int length=10;
 	
 			// 7. Do the following (up to step 10) 60 times
 	for (int j = 0; j < 60000000; j++) {
@@ -25,7 +25,7 @@ public class TriangleShells {
 				// 9. Change the color of the pen to a random color
 		jakey.setRandomPenColor();
 				// 8. Increase the length of the side by 10 pixels
-		length+=10;
+		length+=2;
 				// 5. call your drawTriangle() method using your length variable
 		drawTriangle(length);
 				// 10. Turn the tortoise 6 degrees to the right
