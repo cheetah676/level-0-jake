@@ -9,7 +9,10 @@ import javax.swing.JOptionPane;
 public class safeCracker {
 
 	public static void main(String[] args) {
-		/* Your mission: use the tryCode method to crack the safe by trying all possible combinations */
+		/*
+		 * Your mission: use the tryCode method to crack the safe by trying all
+		 * possible combinations
+		 */
 		for (int i = 0; i < 99999999; i++) {
 			tryCode(i);
 		}
@@ -18,8 +21,9 @@ public class safeCracker {
 
 	static void tryCode(int guess) {
 		System.out.println("trying " + guess);
-
+		String e = JOptionPane.showInputDialog("Pick a number between 1 and 999999");
 		int secretCode = 9999999 - wekncrzpasfdkjhcfjse;
+		;
 
 		if (guess == secretCode) {
 			JOptionPane.showMessageDialog(null, "Congratulations! You cracked the safe with " + guess);
@@ -31,7 +35,8 @@ public class safeCracker {
 	private static void playTheSoundOfSuccess() {
 		AudioClip sound;
 		try {
-			sound = JApplet.newAudioClip(new File("/Users/League/Google Drive/league-sounds/me-gusta.wav").toURI().toURL());
+			sound = JApplet
+					.newAudioClip(new File("/Users/League/Google Drive/league-sounds/me-gusta.wav").toURI().toURL());
 			sound.play();
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
