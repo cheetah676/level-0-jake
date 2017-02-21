@@ -55,6 +55,7 @@ public class friendlyRobots {
 				Jakey.turn(180);
 				Jake.turn(180);
 				time = i;
+				break;
 			}
 		}
 		JOptionPane.showConfirmDialog(null, "The robots took " + time + " times to find eachother.");
