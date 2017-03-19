@@ -19,9 +19,12 @@ public class highLow {
 		else if(guess>x){
 			JOptionPane.showConfirmDialog(null, "HIGH");
 		}
+		else if(j==7){
+			JOptionPane.showConfirmDialog(null, "The code was "+dumpTrump);
+		}
 		else{
 			JOptionPane.showConfirmDialog(null, "LOW");
 		}
-		}
+	}
 	}
 }
