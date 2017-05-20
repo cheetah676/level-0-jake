@@ -71,7 +71,7 @@ public class animalFarm {
 			Clip clip = AudioSystem.getClip();
 			clip.open(audioInputStream);
 			clip.start();
-			Thread.sleep(3400);
+			Thread.sleep(0);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
