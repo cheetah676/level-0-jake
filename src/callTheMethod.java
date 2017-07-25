@@ -22,7 +22,7 @@
 		void start(){
 			
 			//*. Call the singASong method
-			//singASong();
+			singASong();
 			//*. Call the calculateAreaOfACircle method and print the result to the screen
 			//double area=calculateAreaOfACirle(6.779375);
 			//System.out.println(area);
@@ -38,7 +38,7 @@
 		}
 		
 		void singASong(){
-			String words = "Dave is an Octipus!  da ba dee da ba daa da ba dee da ba daa da ba dee da ba dooo";
+			String words = "Dave is an Octipus!  da ba daa dee da ba daa da ba dee da ba daa da ba dee da ba dooo";
 			
 			 try {
 		   		 Runtime.getRuntime().exec("say " + words).waitFor();
