@@ -17,7 +17,12 @@ public class dizzyTortoise {
 
 	static void dance(int numberOfSpins) {
 		for (int i = 0; i < numberOfSpins; i++) {
-			Tortoise.turn(360);
+			for (int j = 0; j < 360; j++) {
+			Tortoise.penDown();
+			Tortoise.setSpeed(10);
+			Tortoise.move(1);
+			Tortoise.turn(1);
+			}
 		}
 	}
 }
